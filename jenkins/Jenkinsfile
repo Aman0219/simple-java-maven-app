@@ -31,5 +31,11 @@ pipeline {
                 echo 'Hello this is from Aman !!'
             }
         }
+        
+        stage('Complete 3'){
+            steps{
+                echo 'Hello this is from Aman stegae 3!!'
+            }
+        }
     }
 }
